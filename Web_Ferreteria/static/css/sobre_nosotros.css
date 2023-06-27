@@ -1,0 +1,98 @@
+.contenido{
+    position:absolute;
+    left: 220px;
+}
+
+.titulo{
+    position: absolute;
+    display: block;
+    width: 100rem;
+    margin-top: 20px;
+}
+
+.titulo h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: #6F4C5B;
+}
+
+.historia{
+    margin-left: 20px;
+    position: absolute;
+    top: 150px;
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.historia h2{
+    margin-left: 35px;
+    text-align: start;
+    color: #6F4C5B;
+}
+
+.parrafos{
+    letter-spacing: 0.5px;
+    color: #6F4C5B;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: space-between;
+}
+
+.informacion{
+    height: 300px;
+    margin-left: 20px;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.informacion h2{
+    margin-left: 35px;
+    text-align: start;
+    color: #6F4C5B;
+}
+
+.informacion p{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    color: #6F4C5B;
+    margin: 10px 20px 10px 20px;
+}
+
+.logros{
+    height: 300px;
+    margin-left: 20px;
+    position: absolute;
+    top: 550px;
+    width: 1250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.logros h2{
+    text-align: center;
+    color: #6F4C5B;
+}
+
+.logros p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #6F4C5B;
+    margin-top: 30px;
+    margin-left: 20px;
+}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/sobre_nosotros.css' %}">
+{% endblock css %}
+
+{% block contenido %}
+    <div class="contenido">
+        <div class="titulo">
+            <h1>Sobre nosotros</h1>
+        </div>
+        <div class="historia">
+            <h2>Historia</h2>
+            <div class="parrafos">
+                <p>Todo comienza en Petorca, donde el dueño de la empresa empieza a interesarse en el aprendizaje de fabricar muebles
+                    esto es en 2002 donde luego abrirá la "Muebles cordillera"
+                </p>
+                <p>Luego del comienzo de la pandemia en 2020 este negocio fue cada vez menos cotizado por los alrededores, por lo cual decidiria ver la venta
+                    de productos de ferreteria en el año 2022 y asi nace "Ferreteria Cordillera"
+                </p>
+            </div>
+        </div>
+        <div class="informacion">
+            <h2>Informacion</h2>
+            <p>Ruta E 35 S/N Lore 27 B,<br> Manuel Mont,  Petorca. <br><br>
+            ferreteriacordillera.contacto@gmail.com <br><br>
+            +569 9725 0448
+        </p>
+        </div>
+        <div class="logros">
+            <h2>Logros</h2>
+            <p>Más de 20 años haciendo negocios y conocimientos de herramientas</p><br><br>
+            <p>Afiliados a CAT para pedir todo tipo de producto de su catálogo</p>
+        </div>
+    </div>
+{% endblock contenido %}

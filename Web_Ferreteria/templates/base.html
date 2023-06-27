@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    {% block css %}
+    
+    {% endblock css %}
+</head>
+<body>
+    <div class="barra-lateral">
+        <a href="#">
+            <img class="img-barra" src="{% static 'img/logo.jpg' %}">
+        </a>
+        <ul>
+            <li><a href="{% url 'INDEX' %}">Home</a></li>
+            <li><a href="{% url 'HERRAMIENTAS' %}">Herramientas</a></li>
+            <li><a href="{% url 'ACCESORIOS' %}">Accesorios</a></li>
+            <li><a href="{% url 'CONSTRUCCION' %}">Productos de construcción</a></li>
+            <li><a href="{% url 'SOBRE_NOSOTROS' %}">Sobre nosotros</a></li>
+        </ul>
+        <a href="{% url 'CONTACTO' %}" class="btn-contacto">Contacto</a>
+        <a href="#"><img class="img-carrito" src="{% static 'img/carrito-de-compras.png' %}"></a>
+    </div>
+    
+    {% block contenido %}
+    
+    {% endblock contenido %}
+    
+</body>
+</html>

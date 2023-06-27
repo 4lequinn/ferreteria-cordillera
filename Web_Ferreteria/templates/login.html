@@ -1,0 +1,34 @@
+{% extends "base_2.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% endblock css %}
+
+{% block contenido %}
+    <div class="btn-volver">
+        <a href="{% url 'INDEX' %}">Volver</a>
+    </div>
+    
+    
+    <div class="contenido">
+        <div class="titulo">
+            <h1>Ferreteria cordillera</h1>
+        </div>
+
+
+        <div class="space-login">
+            <div class="img-login">
+                <img src="{% static 'img/usuario.png'%}" alt="">
+            </div>
+            <label class="label" for="txtEmail">Iniciar sesión</label>
+            <input class="input-desing" type="email" name="txtEmail" id="txtEmail">
+            <label class="label" for="txtEmail">Contraseña</label>
+            <input class="input-desing" type="email" name="txtEmail" id="txtEmail">
+            <div class="botones">
+                <a class="btn" href="#">Iniciar sesión</a>
+                <a class="btn" href="{% url 'REGISTRO'%}">Registrarme</a>
+            </div>
+        </div>
+    </div>
+{% endblock contenido %}

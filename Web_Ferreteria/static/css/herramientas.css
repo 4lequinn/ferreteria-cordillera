@@ -1,0 +1,64 @@
+.contenido{
+    position: fixed;
+    left: 220px;
+}
+
+.titulo{
+    position: absolute;
+    display: block;
+    width: 100rem;
+    margin-top: 20px;
+}
+
+.titulo h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: #6F4C5B;
+}
+
+
+.sub-titulo{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #6F4C5B;
+}
+
+.herramientas{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 100rem;
+    height: 800px;
+    bottom: 10px;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+}
+
+.producto{
+    position: relative;
+    width: 250px;
+    height: 380px;
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.producto img{
+    margin: 25px 25px 10px 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.producto p{
+    margin: 5px 25px 5px 25px;
+}
+
+.producto h3{
+    margin-left: 25px;
+}

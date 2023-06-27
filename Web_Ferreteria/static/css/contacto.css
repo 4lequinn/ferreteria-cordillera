@@ -1,0 +1,74 @@
+.contenido{
+    position:absolute;
+    left: 220px;
+}
+
+.titulo{
+    position: absolute;
+    display: block;
+    width: 100rem;
+    margin-top: 20px;
+}
+.titulo h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: #6F4C5B;
+}
+
+.contactos{
+    position: relative;
+    top: 200px;
+    width: 1500px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 700px 700px 700px;
+}
+.contacto-1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.contacto-1 img{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+}
+.contacto-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.contacto-2 img{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.contacto-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.contacto-3 img{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.btn{
+    position: absolute;
+    top: 370px;
+}
+.btn a{
+    text-decoration: none;
+    padding: 15px 15px;
+    background-color: #6F4C5B ;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    color: #F5E8C7;
+}

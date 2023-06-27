@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/contacto.css' %}">
+{% endblock css %}
+
+{% block contenido %}
+    <div class="contenido">
+        <div class="titulo">
+            <h1>Contactanos</h1>
+        </div>
+        <div class="contactos">
+            <div class="contacto-1">
+                <img src="{% static 'img/whatsapp.png' %}">
+                <div class="btn">
+                    <a href="#">Whatsapp</a>
+                </div>
+            </div>
+            <div class="contacto-2">
+                <img src="{% static 'img/facebook.png' %}">
+                <div class="btn">
+                    <a href="#">facebook</a>
+                </div>
+            </div>
+            <div class="contacto-3">
+                <img src="{% static 'img/correo.png' %}">
+                <div class="btn">
+                    <a href="#">Correo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock contenido %}

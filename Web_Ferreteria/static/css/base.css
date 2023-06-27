@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F5E8C7;
+    font-family: cursive;
+}
+
+.barra-lateral{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #6F4C5B;
+}
+
+.barra-lateral ul{
+    margin-top: 50px;
+}
+.barra-lateral ul li{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    list-style: none;
+}
+.barra-lateral ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 30px 20px;
+}
+
+.barra-lateral ul li a:hover{
+    background-color: #9E7777;
+}
+
+.img-barra{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.btn-contacto{
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 30px;
+    padding: 10px 35px;
+    box-shadow: 1px 1px 10px black;
+    background-color: #6F4C5B;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+.btn-contacto:hover{
+    background-color: #9E7777;
+    transform: scale(1.1);
+}
+
+
+.img-carrito{
+    padding: 20px 20px;
+    background-color: #9E7777;
+    border-radius: 20%;
+    margin: 10px 45px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.img-carrito:hover{
+    animation: carrito 5s infinite;
+    
+}
+
+
+
+@keyframes carrito{
+    10%{transform: rotateZ(-10deg);}
+    20%{transform: rotateZ(10deg);}
+    30%{transform: rotateZ(-10deg);}
+    40%{transform: rotateZ(10deg);}
+    50%{transform: rotateZ(-10deg);}
+    60%{transform: rotateZ(10deg);}
+    70%{transform: rotateZ(-10deg);}
+    80%{transform: rotateZ(10deg);}
+    90%{transform: rotateZ(-10deg);}
+    100%{transform: rotateZ(0deg);}
+}
